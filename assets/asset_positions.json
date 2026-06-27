@@ -1,0 +1,4085 @@
+{
+  "meta": {
+    "coordinate_system": "image_px",
+    "origin": "top-left",
+    "description": "主场景占位背景统一为 8640x5592；商场商品图以 商场商品_* 资源记录，可拖拽编辑。",
+    "canvas_width": 8640,
+    "canvas_height": 5592,
+    "canvas_source": "main_placeholder_background_size",
+    "shop_glass_opacity": 0.7
+  },
+  "assets": {
+    "开局背景.jpg": {
+      "path": "assets/generated/start_cover.png",
+      "category": "functional",
+      "scene": "start_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 0
+    },
+    "价格背景按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/价格背景按钮.jpg",
+      "category": "functional",
+      "scene": "shop_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 120,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 1
+    },
+    "购买红色背景按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/购买红色背景按钮.jpg",
+      "category": "functional",
+      "scene": "shop_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 120,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 2
+    },
+    "购买灰色背景按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/购买灰色背景按钮.jpg",
+      "category": "functional",
+      "scene": "shop_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 120,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 3
+    },
+    "出锅红色背景按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/出锅红色背景按钮.jpg",
+      "category": "functional",
+      "scene": "shared",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 120,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 4
+    },
+    "出锅灰色背景按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/出锅灰色背景按钮.jpg",
+      "category": "functional",
+      "scene": "shared",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 120,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 5
+    },
+    "齿轮.png": {
+      "path": "assets/placeholders/功能性图片/齿轮.png",
+      "category": "functional",
+      "scene": "global_overlay",
+      "position": {
+        "x": 108,
+        "y": 4895,
+        "width": 750,
+        "height": 650,
+        "anchor": "top-left",
+        "layer": 1200
+      },
+      "visible": true,
+      "note": "全局音乐设置按钮图标；x/y/width/height/layer 在所有场景生效。",
+      "order": 6
+    },
+    "完成采购红色背景按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/完成采购红色背景按钮.jpg",
+      "category": "functional",
+      "scene": "shop_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 120,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 1004
+    },
+    "完成采购灰色背景按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/完成采购灰色背景按钮.jpg",
+      "category": "functional",
+      "scene": "shop_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 120,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 1005
+    },
+    "开局按钮.jpg": {
+      "path": "assets/placeholders/功能性图片/开局按钮.jpg",
+      "category": "functional",
+      "scene": "start_screen",
+      "position": {
+        "x": 3703,
+        "y": 4122,
+        "width": 1300,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 70
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 6
+    },
+    "肠粉区背景.png": {
+      "path": "assets/placeholders/功能性图片/肠粉区背景.png",
+      "category": "functional",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "肠粉区背景；按主画布铺满渲染。",
+      "order": 7
+    },
+    "空的面糊勺.png": {
+      "path": "assets/placeholders/厨具图片/空的面糊勺.png",
+      "category": "tools",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 795,
+        "y": 1778,
+        "width": 2520,
+        "height": 1632,
+        "anchor": "top-left",
+        "layer": 45
+      },
+      "visible": true,
+      "note": "肠粉台面糊勺；后续逻辑接入前仅渲染图片。",
+      "order": 8
+    },
+    "装着面糊的面糊勺.png": {
+      "path": "assets/placeholders/厨具图片/装着面糊的面糊勺.png",
+      "category": "tools",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 1198,
+        "y": 2128,
+        "width": 1260,
+        "height": 816,
+        "anchor": "top-left",
+        "layer": 45
+      },
+      "visible": true,
+      "note": "肠粉台装着面糊的面糊勺；后续逻辑接入前仅渲染图片。",
+      "order": 9
+    },
+    "肠粉间的垃圾桶.png": {
+      "path": "assets/placeholders/厨具图片/肠粉间的垃圾桶.png",
+      "category": "tools",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 7294,
+        "y": 3762,
+        "width": 1520,
+        "height": 1520,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "肠粉台垃圾桶；后续逻辑接入前仅渲染图片。",
+      "order": 10
+    },
+    "炒勺.png": {
+      "path": "assets/placeholders/厨具图片/铲勺.png",
+      "category": "tools",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": -1,
+        "y": 2205,
+        "width": 1000,
+        "height": 1528,
+        "anchor": "top-left",
+        "layer": 59
+      },
+      "visible": true,
+      "note": "肠粉台炒勺；源文件为铲勺.png。",
+      "order": 11
+    },
+    "一筐鸡蛋.png": {
+      "path": "assets/placeholders/食材图片/一筐鸡蛋.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 2209,
+        "y": 1213,
+        "width": 1680,
+        "height": 1120,
+        "anchor": "top-left",
+        "layer": 46
+      },
+      "visible": true,
+      "note": "肠粉台新增食材图。",
+      "order": 12
+    },
+    "盒装鲜虾.png": {
+      "path": "assets/placeholders/食材图片/盒装鲜虾.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 694,
+        "y": 1414,
+        "width": 1710,
+        "height": 797,
+        "anchor": "top-left",
+        "layer": 46
+      },
+      "visible": true,
+      "note": "肠粉台新增食材图。",
+      "order": 13
+    },
+    "鲜虾.png": {
+      "path": "assets/placeholders/食材图片/鲜虾.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 793,
+        "y": 1536,
+        "width": 1490,
+        "height": 620,
+        "anchor": "top-left",
+        "layer": 47
+      },
+      "visible": true,
+      "note": "肠粉台新增食材图。",
+      "order": 14
+    },
+    "鸡蛋.png": {
+      "path": "assets/placeholders/食材图片/鸡蛋.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 2622,
+        "y": 1463,
+        "width": 815,
+        "height": 530,
+        "anchor": "top-left",
+        "layer": 47
+      },
+      "visible": true,
+      "note": "肠粉台新增食材图。",
+      "order": 15
+    },
+    "左侧的肠粉.png": {
+      "path": "assets/placeholders/食材图片/左侧的肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3879,
+        "y": 1822,
+        "width": 2000,
+        "height": 880,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 16
+    },
+    "右侧的肠粉.png": {
+      "path": "assets/placeholders/食材图片/右侧的肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5813,
+        "y": 1801,
+        "width": 2120,
+        "height": 905,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 17
+    },
+    "左侧的鸡蛋肠粉.png": {
+      "path": "assets/placeholders/食材图片/左侧的鸡蛋肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3872,
+        "y": 1812,
+        "width": 2010,
+        "height": 880,
+        "anchor": "top-left",
+        "layer": 23
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 18
+    },
+    "右侧的鸡蛋肠粉.png": {
+      "path": "assets/placeholders/食材图片/右侧的鸡蛋肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5801,
+        "y": 1793,
+        "width": 2095,
+        "height": 920,
+        "anchor": "top-left",
+        "layer": 23
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 19
+    },
+    "左侧的鲜虾肠粉.png": {
+      "path": "assets/placeholders/食材图片/左侧的鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3897,
+        "y": 1834,
+        "width": 1960,
+        "height": 870,
+        "anchor": "top-left",
+        "layer": 22
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 20
+    },
+    "右侧的鲜虾肠粉.png": {
+      "path": "assets/placeholders/食材图片/右侧的鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5811,
+        "y": 1792,
+        "width": 2080,
+        "height": 900,
+        "anchor": "top-left",
+        "layer": 22
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 21
+    },
+    "左侧的鸡蛋鲜虾肠粉.png": {
+      "path": "assets/placeholders/食材图片/左侧的鸡蛋鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3883,
+        "y": 1819,
+        "width": 2000,
+        "height": 880,
+        "anchor": "top-left",
+        "layer": 24
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 22
+    },
+    "右侧的鸡蛋鲜虾肠粉.png": {
+      "path": "assets/placeholders/食材图片/右侧的鸡蛋鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5807,
+        "y": 1790,
+        "width": 2130,
+        "height": 955,
+        "anchor": "top-left",
+        "layer": 24
+      },
+      "visible": true,
+      "note": "肠粉台新增成品图。",
+      "order": 23
+    },
+    "成品肠粉.png": {
+      "path": "assets/placeholders/食材图片/成品肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 4085,
+        "y": 1846,
+        "width": 1520,
+        "height": 742,
+        "anchor": "top-left",
+        "layer": 58
+      },
+      "visible": true,
+      "note": "肠粉台动态成品图；拖动炒勺完成后由 overlay 渲染。",
+      "order": 24
+    },
+    "左侧的肠粉2.png": {
+      "path": "assets/placeholders/食材图片/左侧的肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3842,
+        "y": 2612,
+        "width": 2040,
+        "height": 905,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "下排左侧肠粉动态图；可独立拖拽。",
+      "order": 25
+    },
+    "右侧的肠粉2.png": {
+      "path": "assets/placeholders/食材图片/右侧的肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5832,
+        "y": 2584,
+        "width": 2165,
+        "height": 955,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "下排右侧肠粉动态图；可独立拖拽。",
+      "order": 26
+    },
+    "左侧的鸡蛋肠粉2.png": {
+      "path": "assets/placeholders/食材图片/左侧的鸡蛋肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3824,
+        "y": 2612,
+        "width": 2070,
+        "height": 920,
+        "anchor": "top-left",
+        "layer": 23
+      },
+      "visible": true,
+      "note": "下排左侧鸡蛋肠粉动态图；可独立拖拽。",
+      "order": 27
+    },
+    "右侧的鸡蛋肠粉2.png": {
+      "path": "assets/placeholders/食材图片/右侧的鸡蛋肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5839,
+        "y": 2582,
+        "width": 2130,
+        "height": 955,
+        "anchor": "top-left",
+        "layer": 23
+      },
+      "visible": true,
+      "note": "下排右侧鸡蛋肠粉动态图；可独立拖拽。",
+      "order": 28
+    },
+    "左侧的鲜虾肠粉2.png": {
+      "path": "assets/placeholders/食材图片/左侧的鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3859,
+        "y": 2624,
+        "width": 2010,
+        "height": 910,
+        "anchor": "top-left",
+        "layer": 22
+      },
+      "visible": true,
+      "note": "下排左侧鲜虾肠粉动态图；可独立拖拽。",
+      "order": 29
+    },
+    "右侧的鲜虾肠粉2.png": {
+      "path": "assets/placeholders/食材图片/右侧的鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5838,
+        "y": 2581,
+        "width": 2125,
+        "height": 935,
+        "anchor": "top-left",
+        "layer": 22
+      },
+      "visible": true,
+      "note": "下排右侧鲜虾肠粉动态图；可独立拖拽。",
+      "order": 30
+    },
+    "左侧的鸡蛋鲜虾肠粉2.png": {
+      "path": "assets/placeholders/食材图片/左侧的鸡蛋鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3837,
+        "y": 2608,
+        "width": 2070,
+        "height": 920,
+        "anchor": "top-left",
+        "layer": 24
+      },
+      "visible": true,
+      "note": "下排左侧鸡蛋鲜虾肠粉动态图；可独立拖拽。",
+      "order": 31
+    },
+    "右侧的鸡蛋鲜虾肠粉2.png": {
+      "path": "assets/placeholders/食材图片/右侧的鸡蛋鲜虾肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5841,
+        "y": 2596,
+        "width": 2085,
+        "height": 915,
+        "anchor": "top-left",
+        "layer": 24
+      },
+      "visible": true,
+      "note": "下排右侧鸡蛋鲜虾肠粉动态图；可独立拖拽。",
+      "order": 32
+    },
+    "成品肠粉2.png": {
+      "path": "assets/placeholders/食材图片/成品肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 6054,
+        "y": 1875,
+        "width": 1520,
+        "height": 742,
+        "anchor": "top-left",
+        "layer": 58
+      },
+      "visible": true,
+      "note": "第 2 个烤台成品肠粉动态图；可独立拖拽。",
+      "order": 33
+    },
+    "成品肠粉3.png": {
+      "path": "assets/placeholders/食材图片/成品肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 4079,
+        "y": 2698,
+        "width": 1520,
+        "height": 742,
+        "anchor": "top-left",
+        "layer": 58
+      },
+      "visible": true,
+      "note": "第 3 个烤台成品肠粉动态图；可独立拖拽。",
+      "order": 34
+    },
+    "成品肠粉4.png": {
+      "path": "assets/placeholders/食材图片/成品肠粉.png",
+      "category": "ingredients",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 6073,
+        "y": 2697,
+        "width": 1520,
+        "height": 742,
+        "anchor": "top-left",
+        "layer": 58
+      },
+      "visible": true,
+      "note": "第 4 个烤台成品肠粉动态图；可独立拖拽。",
+      "order": 35
+    },
+    "左侧的破洞烤台.png": {
+      "path": "assets/placeholders/功能性图片/左侧的破洞烤台.png",
+      "category": "functional",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3890,
+        "y": 1822,
+        "width": 1960,
+        "height": 860,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "第 1 个肠粉烤台爆炸后的破洞图；运行时仅炸台时显示，可拖拽调整。",
+      "order": 36
+    },
+    "右侧的破洞烤台.png": {
+      "path": "assets/placeholders/功能性图片/右侧的破洞烤台.png",
+      "category": "functional",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5811,
+        "y": 1792,
+        "width": 2100,
+        "height": 905,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "第 2 个肠粉烤台爆炸后的破洞图；运行时仅炸台时显示，可拖拽调整。",
+      "order": 37
+    },
+    "左侧的破洞烤台2.png": {
+      "path": "assets/placeholders/功能性图片/左侧的破洞烤台.png",
+      "category": "functional",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 3842,
+        "y": 2612,
+        "width": 2040,
+        "height": 905,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "第 3 个肠粉烤台爆炸后的破洞图；运行时仅炸台时显示，可拖拽调整。",
+      "order": 38
+    },
+    "右侧的破洞烤台2.png": {
+      "path": "assets/placeholders/功能性图片/右侧的破洞烤台.png",
+      "category": "functional",
+      "scene": "cheung_fun_station",
+      "position": {
+        "x": 5838,
+        "y": 2588,
+        "width": 2130,
+        "height": 955,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "第 4 个肠粉烤台爆炸后的破洞图；运行时仅炸台时显示，可拖拽调整。",
+      "order": 39
+    },
+    "商场背景.jpg": {
+      "path": "assets/placeholders/功能性图片/商场背景.jpg",
+      "category": "functional",
+      "scene": "shop_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 11
+    },
+    "商店背景.png": {
+      "path": "assets/placeholders/功能性图片/商店背景.png",
+      "category": "functional",
+      "scene": "shop_screen",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "商店背景；运行时按当前可视区域铺满渲染。",
+      "order": 12
+    },
+    "烤盘区背景.jpg": {
+      "path": "assets/placeholders/功能性图片/烤盘区背景.png",
+      "category": "functional",
+      "scene": "griddle_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 11
+    },
+    "计时器背景.jpg": {
+      "path": "assets/placeholders/功能性图片/计时器背景.jpg",
+      "category": "functional",
+      "scene": "griddle_station",
+      "position": {
+        "x": 5484,
+        "y": 382,
+        "width": 420,
+        "height": 140,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 9
+    },
+    "点餐台背景.jpg": {
+      "path": "assets/placeholders/功能性图片/点餐台背景.png",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 10
+    },
+    "点餐台桌面.png": {
+      "path": "assets/placeholders/功能性图片/点餐台桌面.png",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 120
+      },
+      "visible": true,
+      "note": "点餐台前景桌面；用于遮挡顾客下半身。",
+      "order": 11
+    },
+    "聊天框背景.jpg": {
+      "path": "assets/placeholders/功能性图片/聊天框背景.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 620,
+        "height": 340,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 11
+    },
+    "聊天中的清单背景.jpg": {
+      "path": "assets/placeholders/功能性图片/聊天中的清单背景.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 420,
+        "height": 260,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 12
+    },
+    "被查看的清单背景.jpg": {
+      "path": "assets/placeholders/功能性图片/被查看的清单背景.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 420,
+        "height": 260,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 13
+    },
+    "悬挂的清单.jpg": {
+      "path": "assets/placeholders/功能性图片/悬挂的清单.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 420,
+        "height": 260,
+        "anchor": "top-left",
+        "layer": 65
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 14
+    },
+    "顾客A.jpg": {
+      "path": "assets/placeholders/功能性图片/顾客A.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 460,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 15
+    },
+    "顾客B.jpg": {
+      "path": "assets/placeholders/功能性图片/顾客B.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 460,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 16
+    },
+    "顾客C.jpg": {
+      "path": "assets/placeholders/功能性图片/顾客C.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 460,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 17
+    },
+    "顾客D.jpg": {
+      "path": "assets/placeholders/功能性图片/顾客D.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 460,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 18
+    },
+    "顾客E.jpg": {
+      "path": "assets/placeholders/功能性图片/顾客E.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 460,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 19
+    },
+    "顾客F.jpg": {
+      "path": "assets/placeholders/功能性图片/顾客F.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 460,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 20
+    },
+    "顾客G.jpg": {
+      "path": "assets/placeholders/功能性图片/顾客G.jpg",
+      "category": "functional",
+      "scene": "counter_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 460,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 21
+    },
+    "主食区背景.jpg": {
+      "path": "assets/placeholders/功能性图片/主食区背景.jpg",
+      "category": "functional",
+      "scene": "staple_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": false,
+      "note": "旧主食区背景已停用；运行时使用 有米/没米 背景。",
+      "order": 22
+    },
+    "烧烤区背景.jpg": {
+      "path": "assets/placeholders/功能性图片/烧烤区背景.png",
+      "category": "functional",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 23
+    },
+    "烤盘间的垃圾桶.png": {
+      "path": "assets/placeholders/厨具图片/烤盘间的垃圾桶.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 7717,
+        "y": 3891,
+        "width": 1000,
+        "height": 1000,
+        "anchor": "top-left",
+        "layer": 45
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 0
+    },
+    "烤盘1.png": {
+      "path": "assets/placeholders/厨具图片/烤盘.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4365,
+        "y": 1452,
+        "width": 1555,
+        "height": 1080,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烤盘图片 1；width/height 为原图尺寸。",
+      "order": 1
+    },
+    "烤盘2.png": {
+      "path": "assets/placeholders/厨具图片/烤盘.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 6683,
+        "y": 1466,
+        "width": 1555,
+        "height": 1080,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烤盘图片 2；width/height 为原图尺寸。",
+      "order": 2
+    },
+    "烤盘3.png": {
+      "path": "assets/placeholders/厨具图片/烤盘.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4350,
+        "y": 2394,
+        "width": 1555,
+        "height": 1080,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烤盘图片 3；width/height 为原图尺寸。",
+      "order": 3
+    },
+    "烤盘4.png": {
+      "path": "assets/placeholders/厨具图片/烤盘.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 6719,
+        "y": 2397,
+        "width": 1555,
+        "height": 1080,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烤盘图片 4；width/height 为原图尺寸。",
+      "order": 4
+    },
+    "烤盘盖子1.png": {
+      "path": "assets/placeholders/厨具图片/烤盘盖子.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4383,
+        "y": 1421,
+        "width": 1533,
+        "height": 1064,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "烤盘盖子图片 1；width/height 为原图尺寸。运行时只在该烤盘有食材时显示。",
+      "order": 5
+    },
+    "烤盘盖子2.png": {
+      "path": "assets/placeholders/厨具图片/烤盘盖子.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 6705,
+        "y": 1431,
+        "width": 1533,
+        "height": 1064,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "烤盘盖子图片 2；width/height 为原图尺寸。运行时只在该烤盘有食材时显示。",
+      "order": 6
+    },
+    "烤盘盖子3.png": {
+      "path": "assets/placeholders/厨具图片/烤盘盖子.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4361,
+        "y": 2341,
+        "width": 1533,
+        "height": 1064,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "烤盘盖子图片 3；width/height 为原图尺寸。运行时只在该烤盘有食材时显示。",
+      "order": 7
+    },
+    "烤盘盖子4.png": {
+      "path": "assets/placeholders/厨具图片/烤盘盖子.png",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 6737,
+        "y": 2330,
+        "width": 1533,
+        "height": 1064,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "烤盘盖子图片 4；width/height 为原图尺寸。运行时只在该烤盘有食材时显示。",
+      "order": 8
+    },
+    "损坏的烤盘1.jpg": {
+      "path": "assets/placeholders/厨具图片/损坏的烤盘.jpg",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4375,
+        "y": 1432,
+        "width": 1555,
+        "height": 1080,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "损坏烤盘图片 1；width/height 为原图尺寸。运行时只在该烤盘损坏时显示。",
+      "order": 9
+    },
+    "损坏的烤盘2.jpg": {
+      "path": "assets/placeholders/厨具图片/损坏的烤盘.jpg",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 6698,
+        "y": 1446,
+        "width": 1555,
+        "height": 1080,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "损坏烤盘图片 2；width/height 为原图尺寸。运行时只在该烤盘损坏时显示。",
+      "order": 10
+    },
+    "损坏的烤盘3.jpg": {
+      "path": "assets/placeholders/厨具图片/损坏的烤盘.jpg",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4370,
+        "y": 2392,
+        "width": 1533,
+        "height": 1064,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "损坏烤盘图片 3；width/height 为原图尺寸。运行时只在该烤盘损坏时显示。",
+      "order": 11
+    },
+    "损坏的烤盘4.jpg": {
+      "path": "assets/placeholders/厨具图片/损坏的烤盘.jpg",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 6734,
+        "y": 2382,
+        "width": 1555,
+        "height": 1080,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "损坏烤盘图片 4；width/height 为原图尺寸。运行时只在该烤盘损坏时显示。",
+      "order": 12
+    },
+    "出锅透明热区1": {
+      "path": "",
+      "category": "hitbox",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4999,
+        "y": 2096,
+        "width": 300,
+        "height": 200,
+        "anchor": "top-left",
+        "layer": 300
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整第 1 个烤盘信息框的出锅点击热区。",
+      "order": 3000
+    },
+    "出锅透明热区2": {
+      "path": "",
+      "category": "hitbox",
+      "scene": "griddle_station",
+      "position": {
+        "x": 7365,
+        "y": 2096,
+        "width": 300,
+        "height": 200,
+        "anchor": "top-left",
+        "layer": 300
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整第 2 个烤盘信息框的出锅点击热区。",
+      "order": 3001
+    },
+    "出锅透明热区3": {
+      "path": "",
+      "category": "hitbox",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4976,
+        "y": 3017,
+        "width": 300,
+        "height": 200,
+        "anchor": "top-left",
+        "layer": 300
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整第 3 个烤盘信息框的出锅点击热区。",
+      "order": 3002
+    },
+    "出锅透明热区4": {
+      "path": "",
+      "category": "hitbox",
+      "scene": "griddle_station",
+      "position": {
+        "x": 7365,
+        "y": 3017,
+        "width": 300,
+        "height": 200,
+        "anchor": "top-left",
+        "layer": 300
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整第 4 个烤盘信息框的出锅点击热区。",
+      "order": 3003
+    },
+    "破洞的烤台.jpg": {
+      "path": "assets/placeholders/厨具图片/破洞的烤台.jpg",
+      "category": "tools",
+      "scene": "griddle_station",
+      "position": {
+        "x": 4478,
+        "y": 249,
+        "width": 260,
+        "height": 220,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 4
+    },
+    "电饭煲.jpg": {
+      "path": "assets/placeholders/厨具图片/电饭煲.jpg",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 260,
+        "height": 220,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "旧单个电饭煲已停用；运行时使用六个 电饭煲N.png 槽位。",
+      "order": 5
+    },
+    "爆炸的电饭煲.jpg": {
+      "path": "assets/placeholders/厨具图片/爆炸的电饭煲.jpg",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 260,
+        "height": 220,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "旧爆炸电饭煲素材暂未用于新主食区。",
+      "order": 6
+    },
+    "面筋.jpg": {
+      "path": "assets/placeholders/食材图片/面筋.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 2009,
+        "y": 1988,
+        "width": 700,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 0
+    },
+    "玉米粒.jpg": {
+      "path": "assets/placeholders/食材图片/玉米粒.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 3052,
+        "y": 574,
+        "width": 740,
+        "height": 740,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 1
+    },
+    "土豆片.jpg": {
+      "path": "assets/placeholders/食材图片/土豆片.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 1972,
+        "y": 598,
+        "width": 700,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 2
+    },
+    "鸡肉.jpg": {
+      "path": "assets/placeholders/食材图片/鸡肉.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 1970,
+        "y": 1286,
+        "width": 690,
+        "height": 690,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 3
+    },
+    "五花肉.jpg": {
+      "path": "assets/placeholders/食材图片/五花肉.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 815,
+        "y": 1297,
+        "width": 718,
+        "height": 725,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 4
+    },
+    "培根片.jpg": {
+      "path": "assets/placeholders/食材图片/培根片.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 849,
+        "y": 558,
+        "width": 740,
+        "height": 740,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 5
+    },
+    "青菜.jpg": {
+      "path": "assets/placeholders/食材图片/青菜.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 858,
+        "y": 1962,
+        "width": 733,
+        "height": 733,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 6
+    },
+    "大白菜.jpg": {
+      "path": "assets/placeholders/食材图片/大白菜.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 3086,
+        "y": 2621,
+        "width": 700,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 7
+    },
+    "冻豆腐.jpg": {
+      "path": "assets/placeholders/食材图片/冻豆腐.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 1942,
+        "y": 2669,
+        "width": 680,
+        "height": 680,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 8
+    },
+    "鱼丸.jpg": {
+      "path": "assets/placeholders/食材图片/鱼丸.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 3093,
+        "y": 1275,
+        "width": 700,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 9
+    },
+    "腐竹片.jpg": {
+      "path": "assets/placeholders/食材图片/腐竹片.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 3055,
+        "y": 1972,
+        "width": 700,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 10
+    },
+    "肠粉面糊.jpg": {
+      "path": "assets/placeholders/食材图片/肠粉面糊.jpg",
+      "category": "ingredients",
+      "scene": "disabled_cheung_fun_assets",
+      "position": {
+        "x": 204,
+        "y": 1148,
+        "width": 220,
+        "height": 220,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 11
+    },
+    "鲜虾.jpg": {
+      "path": "assets/placeholders/食材图片/鲜虾.jpg",
+      "category": "ingredients",
+      "scene": "disabled_cheung_fun_assets",
+      "position": {
+        "x": 824,
+        "y": 852,
+        "width": 220,
+        "height": 220,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 12
+    },
+    "鸡蛋.jpg": {
+      "path": "assets/placeholders/食材图片/鸡蛋.png",
+      "category": "ingredients",
+      "scene": "disabled_cheung_fun_assets",
+      "position": {
+        "x": 324,
+        "y": 787,
+        "width": 256,
+        "height": 256,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 13
+    },
+    "水杯.jpg": {
+      "path": "assets/placeholders/食材图片/水杯.png",
+      "category": "ingredients",
+      "scene": "staple_station",
+      "position": {
+        "x": -235,
+        "y": -513,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 120
+      },
+      "visible": true,
+      "min_quantity": 1,
+      "note": "主食区水杯拖拽源；有 water 库存时显示。",
+      "order": 141
+    },
+    "米堆.jpg": {
+      "path": "assets/placeholders/食材图片/米堆.png",
+      "category": "ingredients",
+      "scene": "staple_station",
+      "position": {
+        "x": 561,
+        "y": 2223,
+        "width": 2130,
+        "height": 1750,
+        "anchor": "top-left",
+        "layer": 120
+      },
+      "visible": true,
+      "note": "主食区米堆拖拽源；有 rice 库存时显示。",
+      "order": 140
+    },
+    "生羊肉串.jpg": {
+      "path": "assets/placeholders/食材图片/左羊肉串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 855,
+        "y": 946,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 45
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 16,
+      "inventory_key": "raw_lamb_skewer"
+    },
+    "生鸡翅串.jpg": {
+      "path": "assets/placeholders/食材图片/左鸡翅.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1772,
+        "y": 924,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 95
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 17,
+      "inventory_key": "raw_chicken_wing_skewer"
+    },
+    "生腰子串.jpg": {
+      "path": "assets/placeholders/食材图片/生腰子串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2644,
+        "y": 871,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 90
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 18,
+      "inventory_key": "raw_kidney_skewer"
+    },
+    "生尖椒串.jpg": {
+      "path": "assets/placeholders/食材图片/生尖椒串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3646,
+        "y": 890,
+        "width": 800,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 90
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 19,
+      "inventory_key": "raw_pepper_skewer"
+    },
+    "生面筋串.jpg": {
+      "path": "assets/placeholders/食材图片/生面筋串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4276,
+        "y": 900,
+        "width": 1200,
+        "height": 1500,
+        "anchor": "top-left",
+        "layer": 95
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 20,
+      "inventory_key": "raw_gluten_skewer"
+    },
+    "生烤肠串.jpg": {
+      "path": "assets/placeholders/食材图片/生烤肠串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5150,
+        "y": 954,
+        "width": 1300,
+        "height": 1600,
+        "anchor": "top-left",
+        "layer": 80
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 21,
+      "inventory_key": "raw_sausage_skewer"
+    },
+    "熟羊肉串.jpg": {
+      "path": "assets/placeholders/食材图片/熟羊肉串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2843,
+        "y": 2916,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 22
+    },
+    "熟鸡翅串.jpg": {
+      "path": "assets/placeholders/食材图片/熟鸡翅串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4394,
+        "y": 2861,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 23
+    },
+    "熟腰子串.jpg": {
+      "path": "assets/placeholders/食材图片/熟腰子串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3578,
+        "y": 2931,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 24
+    },
+    "熟尖椒串.jpg": {
+      "path": "assets/placeholders/食材图片/熟尖椒串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5261,
+        "y": 2880,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 25
+    },
+    "熟面筋串.jpg": {
+      "path": "assets/placeholders/食材图片/熟面筋串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2163,
+        "y": 2914,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 26
+    },
+    "熟烤肠串.jpg": {
+      "path": "assets/placeholders/食材图片/熟烤肠串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1537,
+        "y": 2960,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 27
+    },
+    "孜然粉罐.jpg": {
+      "path": "assets/placeholders/食材图片/胡椒粉罐.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6438,
+        "y": 784,
+        "width": 800,
+        "height": 1500,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区孜然粉罐拖拽源；有孜然库存时显示。",
+      "order": 28,
+      "inventory_key": "cumin"
+    },
+    "辣椒粉罐.jpg": {
+      "path": "assets/placeholders/食材图片/辣椒粉罐.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6466,
+        "y": 924,
+        "width": 800,
+        "height": 1500,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区辣椒粉罐拖拽源；有辣椒库存时显示。",
+      "order": 29,
+      "inventory_key": "chili"
+    },
+    "孜然粉.jpg": {
+      "path": "assets/placeholders/食材图片/孜然粉.jpg",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 220,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 30
+    },
+    "辣椒粉.jpg": {
+      "path": "assets/placeholders/食材图片/辣椒粉.jpg",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 220,
+        "height": 220,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 31
+    },
+    "倾斜的胡椒粉罐.png": {
+      "path": "assets/placeholders/食材图片/倾斜的胡椒粉罐.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1387,
+        "y": 2222,
+        "width": 800,
+        "height": 1700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区倾斜胡椒粉罐；布局拖拽界面可调整撒粉动画起点、大小和层级。",
+      "order": 32
+    },
+    "倾斜的辣椒粉罐.png": {
+      "path": "assets/placeholders/食材图片/倾斜的辣椒粉罐.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1405,
+        "y": 1502,
+        "width": 800,
+        "height": 1700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区倾斜辣椒粉罐；布局拖拽界面可调整撒粉动画起点、大小和层级。",
+      "order": 33
+    },
+    "胡椒粉罐.png": {
+      "path": "assets/placeholders/食材图片/胡椒粉罐.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6455,
+        "y": 763,
+        "width": 800,
+        "height": 1500,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "旧胡椒粉罐素材保留，不参与烧烤区运行时渲染。",
+      "order": 34
+    },
+    "面筋标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/面筋标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 0
+    },
+    "玉米粒标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/玉米粒标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 1
+    },
+    "土豆片标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/土豆片标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 2
+    },
+    "鸡肉标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/鸡肉标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 3
+    },
+    "五花肉标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/五花肉标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 4
+    },
+    "培根片标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/培根片标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 5
+    },
+    "青菜标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/青菜标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 6
+    },
+    "大白菜标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/大白菜标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 7
+    },
+    "冻豆腐标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/冻豆腐标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 8
+    },
+    "鱼丸标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/鱼丸标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 259,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 9
+    },
+    "腐竹片标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/腐竹片标签.jpg",
+      "category": "labels",
+      "scene": "shared_labels",
+      "position": {
+        "x": 37,
+        "y": 130,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 10
+    },
+    "肠粉面糊标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/肠粉面糊标签.jpg",
+      "category": "labels",
+      "scene": "disabled_cheung_fun_assets",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 11
+    },
+    "鲜虾标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/鲜虾标签.jpg",
+      "category": "labels",
+      "scene": "disabled_cheung_fun_assets",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 12
+    },
+    "鸡蛋标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/鸡蛋标签.jpg",
+      "category": "labels",
+      "scene": "disabled_cheung_fun_assets",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 13
+    },
+    "水杯标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/水杯标签.jpg",
+      "category": "labels",
+      "scene": "staple_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 14
+    },
+    "米堆标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/米堆标签.jpg",
+      "category": "labels",
+      "scene": "staple_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 15
+    },
+    "羊肉串标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/羊肉串标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 16
+    },
+    "鸡翅串标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/鸡翅串标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 17
+    },
+    "腰子串标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/腰子串标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 18
+    },
+    "尖椒串标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/尖椒串标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 19
+    },
+    "面筋串标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/面筋串标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 20
+    },
+    "烤肠串标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/烤肠串标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 21
+    },
+    "孜然粉标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/孜然粉标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 22
+    },
+    "辣椒粉标签.jpg": {
+      "path": "assets/placeholders/标签名字图片/辣椒粉标签.jpg",
+      "category": "labels",
+      "scene": "bbq_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 90,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": false,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 23
+    },
+    "槽里的面筋.png": {
+      "path": "assets/placeholders/食材图片/槽里的面筋.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "gluten",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2000,
+      "position": {
+        "x": 1815,
+        "y": 1991,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的玉米粒.png": {
+      "path": "assets/placeholders/食材图片/槽里的玉米粒.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "corn",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2001,
+      "position": {
+        "x": 2926,
+        "y": 621,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的土豆片.png": {
+      "path": "assets/placeholders/食材图片/槽里的土豆片.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "potato_slice",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2002,
+      "position": {
+        "x": 1824,
+        "y": 620,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的鸡肉.png": {
+      "path": "assets/placeholders/食材图片/槽里的鸡肉.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "chicken",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2003,
+      "position": {
+        "x": 1824,
+        "y": 1305,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的五花肉.png": {
+      "path": "assets/placeholders/食材图片/槽里的五花肉.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "pork_belly",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2004,
+      "position": {
+        "x": 705,
+        "y": 1305,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的培根片.png": {
+      "path": "assets/placeholders/食材图片/槽里的培根片.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "bacon",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2005,
+      "position": {
+        "x": 713,
+        "y": 611,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的青菜.png": {
+      "path": "assets/placeholders/食材图片/槽里的青菜.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "greens",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2006,
+      "position": {
+        "x": 713,
+        "y": 1999,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的大白菜.png": {
+      "path": "assets/placeholders/食材图片/槽里的大白菜.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "cabbage",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2007,
+      "position": {
+        "x": 2916,
+        "y": 2657,
+        "anchor": "top-left",
+        "width": 985,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的冻豆腐.png": {
+      "path": "assets/placeholders/食材图片/槽里的冻豆腐.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "tofu",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2008,
+      "position": {
+        "x": 1815,
+        "y": 2667,
+        "anchor": "top-left",
+        "width": 975,
+        "height": 645,
+        "layer": 35
+      }
+    },
+    "槽里的鱼丸.png": {
+      "path": "assets/placeholders/食材图片/槽里的鱼丸.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "fish_ball",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2009,
+      "position": {
+        "x": 2916,
+        "y": 1305,
+        "anchor": "top-left",
+        "width": 983,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的鱼豆腐.png": {
+      "path": "assets/placeholders/食材图片/槽里的鱼豆腐.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "fish_tofu",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2010,
+      "position": {
+        "x": 713,
+        "y": 2667,
+        "anchor": "top-left",
+        "width": 980,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "槽里的腐竹片.png": {
+      "path": "assets/placeholders/食材图片/槽里的腐竹片.png",
+      "category": "ingredients",
+      "scene": "griddle_station",
+      "visible": true,
+      "inventory_key": "bean_curd_sheet",
+      "note": "烤盘区食品槽图片；对应库存为 0 时自动隐藏。",
+      "order": 2011,
+      "position": {
+        "x": 2916,
+        "y": 1990,
+        "anchor": "top-left",
+        "width": 985,
+        "height": 652,
+        "layer": 35
+      }
+    },
+    "鱼豆腐.png": {
+      "path": "assets/placeholders/食材图片/鱼豆腐.png",
+      "category": "ingredients",
+      "scene": "shared_ingredients",
+      "position": {
+        "x": 843,
+        "y": 2639,
+        "width": 700,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "修改 x/y/width/height/layer 以调整布局",
+      "order": 2011
+    },
+    "商场商品_面筋.jpg": {
+      "path": "assets/placeholders/食材图片/面筋.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "gluten",
+      "source_asset": "面筋.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3000,
+      "position": {
+        "x": 742,
+        "y": 762,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_玉米粒.jpg": {
+      "path": "assets/placeholders/食材图片/玉米粒.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "corn",
+      "source_asset": "玉米粒.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3001,
+      "position": {
+        "x": 2606,
+        "y": 764,
+        "width": 600,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_土豆片.jpg": {
+      "path": "assets/placeholders/食材图片/土豆片.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "potato_slice",
+      "source_asset": "土豆片.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3002,
+      "position": {
+        "x": 4484,
+        "y": 769,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_鸡肉.jpg": {
+      "path": "assets/placeholders/食材图片/鸡肉.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "chicken",
+      "source_asset": "鸡肉.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3003,
+      "position": {
+        "x": 6366,
+        "y": 762,
+        "width": 600,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_五花肉.jpg": {
+      "path": "assets/placeholders/食材图片/五花肉.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "pork_belly",
+      "source_asset": "五花肉.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3004,
+      "position": {
+        "x": 740,
+        "y": 1520,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_培根片.jpg": {
+      "path": "assets/placeholders/食材图片/培根片.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "bacon",
+      "source_asset": "培根片.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3005,
+      "position": {
+        "x": 2620,
+        "y": 1520,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_青菜.jpg": {
+      "path": "assets/placeholders/食材图片/青菜.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "greens",
+      "source_asset": "青菜.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3006,
+      "position": {
+        "x": 4500,
+        "y": 1520,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_大白菜.jpg": {
+      "path": "assets/placeholders/食材图片/大白菜.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "cabbage",
+      "source_asset": "大白菜.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3007,
+      "position": {
+        "x": 6380,
+        "y": 1520,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_冻豆腐.jpg": {
+      "path": "assets/placeholders/食材图片/冻豆腐.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "tofu",
+      "source_asset": "冻豆腐.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3008,
+      "position": {
+        "x": 740,
+        "y": 2280,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_鱼丸.jpg": {
+      "path": "assets/placeholders/食材图片/鱼丸.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "fish_ball",
+      "source_asset": "鱼丸.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3009,
+      "position": {
+        "x": 2620,
+        "y": 2280,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_鱼豆腐.png": {
+      "path": "assets/placeholders/食材图片/鱼豆腐.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "fish_tofu",
+      "source_asset": "鱼豆腐.png",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3010,
+      "position": {
+        "x": 4500,
+        "y": 2280,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_腐竹片.jpg": {
+      "path": "assets/placeholders/食材图片/腐竹片.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "bean_curd_sheet",
+      "source_asset": "腐竹片.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3011,
+      "position": {
+        "x": 6380,
+        "y": 2280,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_淀粉面糊.png": {
+      "path": "assets/placeholders/食材图片/淀粉面糊.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "rice_batter",
+      "source_asset": "淀粉面糊.png",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3012,
+      "position": {
+        "x": 740,
+        "y": 3040,
+        "width": 900,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_鲜虾.jpg": {
+      "path": "assets/placeholders/食材图片/鲜虾.jpg",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "shrimp",
+      "source_asset": "鲜虾.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3013,
+      "position": {
+        "x": 2620,
+        "y": 3040,
+        "width": 900,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_鸡蛋.jpg": {
+      "path": "assets/placeholders/食材图片/鸡蛋.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "egg",
+      "source_asset": "鸡蛋.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3014,
+      "position": {
+        "x": 4486,
+        "y": 3077,
+        "width": 900,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_米堆.jpg": {
+      "path": "assets/placeholders/食材图片/米堆.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "rice",
+      "source_asset": "米堆.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3015,
+      "position": {
+        "x": 6380,
+        "y": 3040,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_水杯.jpg": {
+      "path": "assets/placeholders/食材图片/水杯.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "water",
+      "source_asset": "水杯.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3016,
+      "position": {
+        "x": 815,
+        "y": 3706,
+        "width": 800,
+        "height": 800,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_生羊肉串.jpg": {
+      "path": "assets/placeholders/食材图片/生羊肉串.jpg",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "raw_lamb_skewer",
+      "source_asset": "生羊肉串.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3017,
+      "position": {
+        "x": 2602,
+        "y": 3800,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_生鸡翅串.jpg": {
+      "path": "assets/placeholders/食材图片/生鸡翅串.jpg",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "raw_chicken_wing_skewer",
+      "source_asset": "生鸡翅串.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3018,
+      "position": {
+        "x": 4500,
+        "y": 3800,
+        "width": 500,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_生腰子串.jpg": {
+      "path": "assets/placeholders/食材图片/生腰子串.jpg",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "raw_kidney_skewer",
+      "source_asset": "生腰子串.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3019,
+      "position": {
+        "x": 6380,
+        "y": 3800,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_生尖椒串.jpg": {
+      "path": "assets/placeholders/食材图片/生尖椒串.jpg",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "raw_pepper_skewer",
+      "source_asset": "生尖椒串.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3020,
+      "position": {
+        "x": 740,
+        "y": 4560,
+        "width": 500,
+        "height": 700,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_生面筋串.jpg": {
+      "path": "assets/placeholders/食材图片/生面筋串.jpg",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "raw_gluten_skewer",
+      "source_asset": "生面筋串.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3021,
+      "position": {
+        "x": 2620,
+        "y": 4560,
+        "width": 600,
+        "height": 600,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_生烤肠串.jpg": {
+      "path": "assets/placeholders/食材图片/生烤肠串.jpg",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "raw_sausage_skewer",
+      "source_asset": "生烤肠串.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3022,
+      "position": {
+        "x": 4500,
+        "y": 4560,
+        "width": 650,
+        "height": 650,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_孜然粉罐.jpg": {
+      "path": "assets/placeholders/食材图片/胡椒粉罐.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "cumin",
+      "source_asset": "孜然粉罐.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3023,
+      "position": {
+        "x": 6380,
+        "y": 4794,
+        "width": 600,
+        "height": 1200,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "商场商品_辣椒粉罐.jpg": {
+      "path": "assets/placeholders/食材图片/辣椒粉罐.png",
+      "category": "shop_item",
+      "scene": "shop_screen",
+      "visible": true,
+      "product_key": "chili",
+      "source_asset": "辣椒粉罐.jpg",
+      "note": "商场商品图片，可在布局拖拽模式中调整位置和大小。",
+      "order": 3024,
+      "position": {
+        "x": 740,
+        "y": 5065,
+        "width": 600,
+        "height": 1200,
+        "anchor": "top-left",
+        "layer": 120
+      }
+    },
+    "烧烤架热区1": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1430,
+        "y": 2891,
+        "width": 500,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 1 个烤串吸附热区。",
+      "order": 35
+    },
+    "烧烤架热区2": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1944,
+        "y": 2891,
+        "width": 500,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 2 个烤串吸附热区。",
+      "order": 36
+    },
+    "烧烤架热区3": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2451,
+        "y": 2884,
+        "width": 500,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 3 个烤串吸附热区。",
+      "order": 37
+    },
+    "烧烤架热区4": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2958,
+        "y": 2877,
+        "width": 450,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 4 个烤串吸附热区。",
+      "order": 38
+    },
+    "烧烤架热区5": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3414,
+        "y": 2884,
+        "width": 450,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 5 个烤串吸附热区。",
+      "order": 39
+    },
+    "烧烤架热区6": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3864,
+        "y": 2896,
+        "width": 450,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 6 个烤串吸附热区。",
+      "order": 40
+    },
+    "烧烤架热区7": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4321,
+        "y": 2898,
+        "width": 450,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 7 个烤串吸附热区。",
+      "order": 41
+    },
+    "烧烤架热区8": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4785,
+        "y": 2898,
+        "width": 450,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 8 个烤串吸附热区。",
+      "order": 42
+    },
+    "烧烤架热区9": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5242,
+        "y": 2891,
+        "width": 450,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 9 个烤串吸附热区。",
+      "order": 43
+    },
+    "烧烤架热区10": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5700,
+        "y": 2891,
+        "width": 500,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 10 个烤串吸附热区。",
+      "order": 44
+    },
+    "烧烤架热区11": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6206,
+        "y": 2891,
+        "width": 500,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 11 个烤串吸附热区。",
+      "order": 45
+    },
+    "烧烤架热区12": {
+      "path": "",
+      "category": "hotzones",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6724,
+        "y": 2895,
+        "width": 500,
+        "height": 1400,
+        "anchor": "top-left",
+        "layer": 205
+      },
+      "visible": true,
+      "note": "运行时透明；拖拽此占位框可调整烧烤架第 12 个烤串吸附热区。",
+      "order": 46
+    },
+    "左羊肉串.png": {
+      "path": "assets/placeholders/食材图片/左羊肉串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1235,
+        "y": 2962,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 47
+    },
+    "右羊肉串.png": {
+      "path": "assets/placeholders/食材图片/右羊肉串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4500,
+        "y": 3020,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 48
+    },
+    "架子上的羊肉串.png": {
+      "path": "assets/placeholders/食材图片/架子上的羊肉串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 282,
+        "y": 680,
+        "width": 2050,
+        "height": 1940,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区库存展示图；有库存时显示，没有库存时隐藏。",
+      "order": 49,
+      "inventory_key": "raw_lamb_skewer"
+    },
+    "左鸡翅.png": {
+      "path": "assets/placeholders/食材图片/左鸡翅.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3083,
+        "y": 2891,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 50
+    },
+    "右鸡翅.png": {
+      "path": "assets/placeholders/食材图片/右鸡翅.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4890,
+        "y": 2909,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 51
+    },
+    "架子上的鸡翅.png": {
+      "path": "assets/placeholders/食材图片/架子上的鸡翅.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1086,
+        "y": 571,
+        "width": 2300,
+        "height": 2160,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区库存展示图；有库存时显示，没有库存时隐藏。",
+      "order": 52,
+      "inventory_key": "raw_chicken_wing_skewer"
+    },
+    "左腰子.png": {
+      "path": "assets/placeholders/食材图片/左腰子.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1680,
+        "y": 2977,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 53
+    },
+    "右腰子.png": {
+      "path": "assets/placeholders/食材图片/右腰子.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5460,
+        "y": 3020,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 54
+    },
+    "架子上的腰子.png": {
+      "path": "assets/placeholders/食材图片/架子上的腰子.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2237,
+        "y": 128,
+        "width": 2200,
+        "height": 2500,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区库存展示图；有库存时显示，没有库存时隐藏。",
+      "order": 55,
+      "inventory_key": "raw_kidney_skewer"
+    },
+    "左尖椒.png": {
+      "path": "assets/placeholders/食材图片/左尖椒.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2296,
+        "y": 2941,
+        "width": 700,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 56
+    },
+    "右尖椒.png": {
+      "path": "assets/placeholders/食材图片/右尖椒.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5940,
+        "y": 3020,
+        "width": 700,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 57
+    },
+    "架子上的尖椒.png": {
+      "path": "assets/placeholders/食材图片/架子上的尖椒.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2768,
+        "y": 701,
+        "width": 2700,
+        "height": 1870,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区库存展示图；有库存时显示，没有库存时隐藏。",
+      "order": 58,
+      "inventory_key": "raw_pepper_skewer"
+    },
+    "左面筋.png": {
+      "path": "assets/placeholders/食材图片/左面筋.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2747,
+        "y": 2991,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": 3
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 59
+    },
+    "右面筋.png": {
+      "path": "assets/placeholders/食材图片/右面筋.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6270,
+        "y": 2963,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": -3
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 60
+    },
+    "架子上的面筋.png": {
+      "path": "assets/placeholders/食材图片/架子上的面筋.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3863,
+        "y": 679,
+        "width": 1990,
+        "height": 1980,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区库存展示图；有库存时显示，没有库存时隐藏。",
+      "order": 61,
+      "inventory_key": "raw_gluten_skewer"
+    },
+    "左烤肠.png": {
+      "path": "assets/placeholders/食材图片/左烤肠.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3635,
+        "y": 2998,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": 7
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 62
+    },
+    "右烤肠.png": {
+      "path": "assets/placeholders/食材图片/右烤肠.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6619,
+        "y": 2972,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": -7
+      },
+      "visible": true,
+      "note": "烧烤架动态烤串素材；运行时按此 width/height 居中渲染到烧烤架热区。",
+      "order": 63
+    },
+    "架子上的烤肠.png": {
+      "path": "assets/placeholders/食材图片/架子上的烤肠.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4228,
+        "y": -15,
+        "width": 2730,
+        "height": 2800,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "烧烤区库存展示图；有库存时显示，没有库存时隐藏。",
+      "order": 64,
+      "inventory_key": "raw_sausage_skewer"
+    },
+    "中羊肉串.png": {
+      "path": "assets/placeholders/食材图片/生羊肉串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2987,
+        "y": 4365,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架中间 450 宽热区动态烤串素材；路径使用生烤串图，运行时按此 width/height 居中渲染。",
+      "order": 95
+    },
+    "中鸡翅.png": {
+      "path": "assets/placeholders/食材图片/生鸡翅串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3990,
+        "y": 4269,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架中间 450 宽热区动态烤串素材；路径使用生烤串图，运行时按此 width/height 居中渲染。",
+      "order": 96
+    },
+    "中腰子.png": {
+      "path": "assets/placeholders/食材图片/生腰子串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3478,
+        "y": 4194,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架中间 450 宽热区动态烤串素材；路径使用生烤串图，运行时按此 width/height 居中渲染。",
+      "order": 97
+    },
+    "中尖椒.png": {
+      "path": "assets/placeholders/食材图片/生尖椒串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4545,
+        "y": 4376,
+        "width": 800,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架中间 450 宽热区动态烤串素材；路径使用生烤串图，运行时按此 width/height 居中渲染。",
+      "order": 98
+    },
+    "中面筋.png": {
+      "path": "assets/placeholders/食材图片/生面筋串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5378,
+        "y": 4279,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架中间 450 宽热区动态烤串素材；路径使用生烤串图，运行时按此 width/height 居中渲染。",
+      "order": 99
+    },
+    "中烤肠.png": {
+      "path": "assets/placeholders/食材图片/生烤肠串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4866,
+        "y": 4493,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架中间 450 宽热区动态烤串素材；路径使用生烤串图，运行时按此 width/height 居中渲染。",
+      "order": 100
+    },
+    "左熟羊肉串.png": {
+      "path": "assets/placeholders/食材图片/熟羊肉串_L.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1228,
+        "y": 2944,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": 6
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 101
+    },
+    "中熟羊肉串.png": {
+      "path": "assets/placeholders/食材图片/熟羊肉串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2987,
+        "y": 4365,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 102
+    },
+    "右熟羊肉串.png": {
+      "path": "assets/placeholders/食材图片/熟羊肉串_r.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4500,
+        "y": 3009,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": -4
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 103
+    },
+    "左熟鸡翅.png": {
+      "path": "assets/placeholders/食材图片/熟鸡翅串_l.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3083,
+        "y": 2891,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 104
+    },
+    "中熟鸡翅.png": {
+      "path": "assets/placeholders/食材图片/熟鸡翅串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3990,
+        "y": 4269,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 105
+    },
+    "右熟鸡翅.png": {
+      "path": "assets/placeholders/食材图片/熟鸡翅串_r.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4946,
+        "y": 2909,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 106
+    },
+    "左熟腰子.png": {
+      "path": "assets/placeholders/食材图片/熟腰子串_l.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 1669,
+        "y": 2988,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 107
+    },
+    "中熟腰子.png": {
+      "path": "assets/placeholders/食材图片/熟腰子串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3478,
+        "y": 4194,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 108
+    },
+    "右熟腰子.png": {
+      "path": "assets/placeholders/食材图片/熟腰子串_r.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5460,
+        "y": 3020,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 109
+    },
+    "左熟尖椒.png": {
+      "path": "assets/placeholders/食材图片/熟青椒串_l.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2275,
+        "y": 2983,
+        "width": 700,
+        "height": 1320,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 110
+    },
+    "中熟尖椒.png": {
+      "path": "assets/placeholders/食材图片/熟尖椒串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4545,
+        "y": 4376,
+        "width": 800,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 111
+    },
+    "右熟尖椒.png": {
+      "path": "assets/placeholders/食材图片/熟青椒串_r.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5929,
+        "y": 3020,
+        "width": 700,
+        "height": 1320,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 112
+    },
+    "左熟面筋.png": {
+      "path": "assets/placeholders/食材图片/熟面筋串_l.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 2747,
+        "y": 3002,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": 3
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 113
+    },
+    "中熟面筋.png": {
+      "path": "assets/placeholders/食材图片/熟面筋串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 5378,
+        "y": 4279,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 114
+    },
+    "右熟面筋.png": {
+      "path": "assets/placeholders/食材图片/熟面筋串_r.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6270,
+        "y": 2952,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": -3
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 115
+    },
+    "左熟烤肠.png": {
+      "path": "assets/placeholders/食材图片/熟烤肠串_l.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 3633,
+        "y": 2989,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": 7
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 116
+    },
+    "中熟烤肠.png": {
+      "path": "assets/placeholders/食材图片/熟烤肠串.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4866,
+        "y": 4493,
+        "width": 1000,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 117
+    },
+    "右熟烤肠.png": {
+      "path": "assets/placeholders/食材图片/熟烤肠串_r.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 6608,
+        "y": 2983,
+        "width": 900,
+        "height": 1300,
+        "anchor": "top-left",
+        "layer": 215,
+        "rotation": -7
+      },
+      "visible": true,
+      "note": "烧烤架动态熟烤串素材；拖拽 x/y/width/height 可调整熟后显示位置和大小。",
+      "order": 118
+    },
+    "没米的主食区背景.png": {
+      "path": "assets/placeholders/功能性图片/没米的主食区背景.png",
+      "category": "functional",
+      "scene": "staple_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "主食区背景；米库存为 0 时运行时显示。",
+      "order": 22
+    },
+    "有米的主食区背景.png": {
+      "path": "assets/placeholders/功能性图片/有米的主食区背景.png",
+      "category": "functional",
+      "scene": "staple_station",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 8640,
+        "height": 5592,
+        "anchor": "top-left",
+        "layer": 0
+      },
+      "visible": true,
+      "note": "主食区背景；米库存大于 0 时运行时显示。",
+      "order": 23
+    },
+    "电饭煲1.png": {
+      "path": "assets/placeholders/厨具图片/空的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 2931,
+        "y": 332,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 10
+      },
+      "visible": true,
+      "note": "第 1 个电饭煲槽位；运行时按状态切换空锅/加米/加水/蒸饭/完成图片。",
+      "order": 151
+    },
+    "电饭煲2.png": {
+      "path": "assets/placeholders/厨具图片/空的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 4566,
+        "y": 342,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 10
+      },
+      "visible": true,
+      "note": "第 2 个电饭煲槽位；运行时按状态切换空锅/加米/加水/蒸饭/完成图片。",
+      "order": 152
+    },
+    "电饭煲3.png": {
+      "path": "assets/placeholders/厨具图片/空的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 6211,
+        "y": 321,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 10
+      },
+      "visible": true,
+      "note": "第 3 个电饭煲槽位；运行时按状态切换空锅/加米/加水/蒸饭/完成图片。",
+      "order": 153
+    },
+    "电饭煲4.png": {
+      "path": "assets/placeholders/厨具图片/空的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 2942,
+        "y": 2347,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 70
+      },
+      "visible": true,
+      "note": "第 4 个电饭煲槽位；运行时按状态切换空锅/加米/加水/蒸饭/完成图片。",
+      "order": 154
+    },
+    "电饭煲5.png": {
+      "path": "assets/placeholders/厨具图片/空的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 4586,
+        "y": 2356,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 70
+      },
+      "visible": true,
+      "note": "第 5 个电饭煲槽位；运行时按状态切换空锅/加米/加水/蒸饭/完成图片。",
+      "order": 155
+    },
+    "电饭煲6.png": {
+      "path": "assets/placeholders/厨具图片/空的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 6221,
+        "y": 2346,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 70
+      },
+      "visible": true,
+      "note": "第 6 个电饭煲槽位；运行时按状态切换空锅/加米/加水/蒸饭/完成图片。",
+      "order": 156
+    },
+    "空的电饭煲.png": {
+      "path": "assets/placeholders/厨具图片/空的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 2931,
+        "y": 332,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "主食区运行时状态素材；布局拖拽时调整 电饭煲1-6.png 槽位即可。",
+      "order": 170
+    },
+    "有米没水的电饭煲.png": {
+      "path": "assets/placeholders/厨具图片/有米没水的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 3380,
+        "y": 652,
+        "width": 2300,
+        "height": 2730,
+        "anchor": "top-left",
+        "layer": 30
+      },
+      "visible": true,
+      "note": "主食区运行时状态素材；布局拖拽时调整 电饭煲1-6.png 槽位即可。",
+      "order": 171
+    },
+    "有水有米的电饭煲.png": {
+      "path": "assets/placeholders/厨具图片/有水有米的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 3401,
+        "y": 653,
+        "width": 2270,
+        "height": 2700,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": true,
+      "note": "主食区运行时状态素材；布局拖拽时调整 电饭煲1-6.png 槽位即可。",
+      "order": 172
+    },
+    "正在蒸饭的电饭煲.png": {
+      "path": "assets/placeholders/厨具图片/正在蒸饭的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 3539,
+        "y": 1347,
+        "width": 2020,
+        "height": 2000,
+        "anchor": "top-left",
+        "layer": 50
+      },
+      "visible": true,
+      "note": "主食区运行时状态素材；布局拖拽时调整 电饭煲1-6.png 槽位即可。",
+      "order": 173
+    },
+    "蒸饭完成的电饭煲.png": {
+      "path": "assets/placeholders/厨具图片/蒸饭完成的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 3538,
+        "y": 1357,
+        "width": 2020,
+        "height": 2000,
+        "anchor": "top-left",
+        "layer": 60
+      },
+      "visible": true,
+      "note": "主食区运行时状态素材；布局拖拽时调整 电饭煲1-6.png 槽位即可。",
+      "order": 174
+    },
+    "水杯2.jpg": {
+      "path": "assets/placeholders/食材图片/水杯.png",
+      "category": "ingredients",
+      "scene": "staple_station",
+      "position": {
+        "x": 1241,
+        "y": -512,
+        "width": 3000,
+        "height": 3000,
+        "anchor": "top-left",
+        "layer": 120
+      },
+      "visible": true,
+      "min_quantity": 2,
+      "note": "主食区第二个水杯拖拽源；有 water 库存时显示。",
+      "order": 142
+    },
+    "有水的电饭煲.png": {
+      "path": "assets/placeholders/厨具图片/有水的电饭煲.png",
+      "category": "tools",
+      "scene": "staple_station",
+      "position": {
+        "x": 3122,
+        "y": 556,
+        "width": 2820,
+        "height": 2750,
+        "anchor": "top-left",
+        "layer": 20
+      },
+      "visible": true,
+      "note": "主食区运行时状态素材；布局拖拽时调整 电饭煲1-6.png 槽位即可。",
+      "order": 173
+    },
+    "倾斜的孜然粉罐.png": {
+      "path": "assets/placeholders/食材图片/倾斜的胡椒粉罐.png",
+      "category": "ingredients",
+      "scene": "bbq_station",
+      "position": {
+        "x": 4238,
+        "y": 4428,
+        "width": 800,
+        "height": 1500,
+        "anchor": "top-left",
+        "layer": 40
+      },
+      "visible": false,
+      "note": "旧倾斜孜然粉罐别名保留；运行时改用倾斜的胡椒粉罐.png。",
+      "order": 32
+    }
+  }
+}
