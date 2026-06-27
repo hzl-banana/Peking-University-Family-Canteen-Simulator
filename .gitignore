@@ -12,8 +12,8 @@ build/
 dist/
 *.egg-info/
 
-save/*.json
-!save/.gitkeep
+**/save/*.json
+!**/save/.gitkeep
 
 .pytest_cache/
 .mypy_cache/
